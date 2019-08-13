@@ -8,8 +8,8 @@ return document.getElementById('nested').querySelector('div.target')
 }
 
 function increaseRankBy(n) {
-  var parsed = parseInt(n)
-  if
-    .ranked-list[i] + n
-  }
+  var ranks = document.querySelectorAll('ul.ranked-list li');
+for (var i = 0; i < ranks.length; i++) {
+  ranks[i].innerHTML = parseInt(ranks[i].innerHTML) + n
+}
 }
