@@ -15,5 +15,6 @@ for (var i = 0; i < ranks.length; i++) {
 }
 
 function deepestChild() {
+document.querySelectorAll('div.grand-node')
 
 }
