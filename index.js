@@ -7,6 +7,7 @@ return document.getElementById('nested').querySelector('div.target')
 
 }
 
-function deepestChild() {
-
+function increaseRankBy(n) {
+  Increases the ranks in all of the .ranked-list by n
+You might need to make use of parseInt
 }
