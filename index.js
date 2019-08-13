@@ -8,5 +8,5 @@ return document.getElementById('nested').querySelector('div.target')
 }
 
 function deepestChild() {
-  
+
 }
